@@ -1,103 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Saylani Website</title>
+    <title>Form</title>
 </head>
-
 <body>
-
-    <table width="100%" cellspacing="15">
-        <tr>
-            <th>HOME</th>
-            <th>ABOUT</th>
-            <th>SERVICES</th>
-            <th>GALLERY</th>
-            <th>CONTACT US</th>
-        </tr>
-    </table>
-
-    <img src="./sven-mieke-fteR0e2BzKo-unsplash.jpg" alt="banner" width="100%">
-    <br>
-    <br>
-    <marquee behavior="alternate" direction="left">
-        <font size="5" color="blue">SMIT - Saylani Mass IT Training</font>
-    </marquee>
-    <br>
-    <br>
-    <p>
-        <img src="./logo.png" alt="" align="right" width="400">
-        Saylani Welfare International Trust has been working for the last 22 years to improve the conditions of the less
-        privileged, helpless, and handicapped individuals. The organization is working day and night to make life
-        happier, especially for the middle class, lower middle class and even lower class. At time of establishing the
-        organization, the founder of Saylani Welfare International Trust and a few of his associates had made a
-        commitment to serve the distressed people living in Pakistan and abroad in all stages of life. It is a blessing
-        in disguise that today the organization is serving humanity in more than 63 areas of life without any
-        discrimination.
-
-        The soul, founder and patron of this organization is Hazrat Allama Maulana Muhammad Bashir Farooqi. He is also a
-        well-known spiritual person and Islamic scholar in the Islamic world. It is the result of his efforts that today
-        Saylani Welfare International Trust is serving humanity all over the world.
-
-        The organization started out as a rented house and today has at least 630 branches worldwide. The organization
-        also has more than 630 Dastarkhwan, where thousands of employees are employed. Today, the organization spends
-        more than 7 billion annually on the service and welfare of humanity. Not only this, but more than 63 spheres of
-        life from birth to death (including food, health, education, social welfare, clean water, marriage, mass I.T
-        training, vocational training, assistance to Syrian and Burmese refugees, pilgrim services, school services
-        fees, easy loans, easy employment, hairdressing, medical & diagnostic center, laboratory tests, x-ray,
-        ultrasound, ECG, consultant clinic, mobile dining, mobile clinic, mobile air care clinic & operation theater,
-        and in case of natural disasters aid) our organization is serving humanity.
-    </p>
-    <br>
-    <p>
-        <img src="./logo.22bf709605809177256c.png" alt="" align="left" width="400">
-        Saylani Welfare International Trust has been working for the last 22 years to improve the conditions of the less
-        privileged, helpless, and handicapped individuals. The organization is working day and night to make life
-        happier, especially for the middle class, lower middle class and even lower class. At time of establishing the
-        organization, the founder of Saylani Welfare International Trust and a few of his associates had made a
-        commitment to serve the distressed people living in Pakistan and abroad in all stages of life. It is a blessing
-        in disguise that today the organization is serving humanity in more than 63 areas of life without any
-        discrimination.
-
-        The soul, founder and patron of this organization is Hazrat Allama Maulana Muhammad Bashir Farooqi. He is also a
-        well-known spiritual person and Islamic scholar in the Islamic world. It is the result of his efforts that today
-        Saylani Welfare International Trust is serving humanity all over the world.
-
-        The organization started out as a rented house and today has at least 630 branches worldwide. The organization
-        also has more than 630 Dastarkhwan, where thousands of employees are employed. Today, the organization spends
-        more than 7 billion annually on the service and welfare of humanity. Not only this, but more than 63 spheres of
-        life from birth to death (including food, health, education, social welfare, clean water, marriage, mass I.T
-        training, vocational training, assistance to Syrian and Burmese refugees, pilgrim services, school services
-        fees, easy loans, easy employment, hairdressing, medical & diagnostic center, laboratory tests, x-ray,
-        ultrasound, ECG, consultant clinic, mobile dining, mobile clinic, mobile air care clinic & operation theater,
-        and in case of natural disasters aid) our organization is serving humanity.
-    </p>
-
-    <br>
-    <hr size="5" color="grey">
-    <div style="width: 45%; display: inline-block;">
-        <figure>
-            <img src="./xps-Gi3iUJ1FwxI-unsplash.jpg" alt="" width="100%">
-            <figcaption>Hyderabad - Best Laptops Market where thousands of employees are employed. Today, the
-                organization spends more than 7 billion annually on the service and welfare of humanity</figcaption>
-        </figure>
-    </div>
-    <div style="width: 45%; display: inline-block;">
-        <figure>
-            <img src="./xps-yNvVnPcurD8-unsplash.jpg" alt="" width="100%">
-            <figcaption>Karachi - At time of establishing the organization, the founder of Saylani Welfare International
-                Trust and a few of his associates had made a commitment to serve the distressed people living in
-                Pakistan and abroad in all stages of life</figcaption>
-        </figure>
-    </div>
-
-    <marquee behavior="alternate" direction="left">
-        <font size="5" color="blue">Developed by Muhammad Shahzaib</font>
-    </marquee>
-
+    <div align="center"><img src="./saylani-logo.png" alt=""></div>
+    <div align="center"><h1>Saylani Online Academy</h1></div>
+    <div align="center">
+    <form action="./submit.html" method="post">
+      <fieldset  style="width: 60%; background-color: silver;">
+        <legend align="center"><h2>Student Registration Form</h2></legend>
+        <table cellpadding="7" cellspacing="5" align="center" width="100%">
+            <tr>
+                <td><label for="name">Name:</label></td>
+                <td colspan="2"><input placeholder="Name" type="text" name="name" id="name"></td>
+            </tr>
+            <tr>
+                <td><label for="fname">Father Name:</label></td>
+                <td colspan="2"><input placeholder="Father Name" type="text" name="fname" id="fname"></td>
+            </tr>
+            <tr>
+                <td><label for="pass">Password:</label></td>
+                <td colspan="2"><input type="text" name="password" id="pass"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address:</label></td>
+                <td colspan="2"><textarea name="address" placeholder="Address" id="address" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Gender:</label></td>
+                <td colspan="2">
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="lang">Language:</label></td>
+                <td colspan="2">
+                    <label for="urdu">Urdu</label>
+                    <input type="checkbox" name="language" id="urdu" value="urdu">
+                    <label for="eng">English</label>
+                    <input type="checkbox" name="language" id="eng" value="eng">
+                    <label for="arb">Arabic</label>
+                    <input type="checkbox" name="language" id="arb" value="arb">
+                    <label for="chinese">Chinese</label>
+                    <input type="checkbox" name="language" id="chinese" value="chi">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="dob">DOB:</label></td>
+                <td colspan="2"><input type="date" name="DOB" id="dob"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email ID:</label></td>
+                <td colspan="2"><input placeholder="Email" type="email" name="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number: &emsp;</label></td>
+                <td colspan="2"><input placeholder="Phone" type="number" name="number" id="phone"></td>
+            </tr>
+            <tr>
+                <td><label for="city">City:</label></td>
+                <td colspan="2">
+                    <select name="city" id="city">
+                        <option selected disabled value="">Select Your City</option>
+                        <option value="khi">Karachi</option>
+                        <option value="hyd">Hyderbad</option>
+                        <option value="suk">Sukkur</option>
+                        <option value="mir">Mirpurkhas</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobby">Hobbies:</label></td>
+                <td colspan="2">
+                    <select multiple name="hobby" id="hobby">
+                        <option value="cri">Cricket</option>
+                        <option value="foot">Football</option>
+                        <option value="ten">Tennis</option>
+                        <option value="bad">Badminton</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="upload">Picture Upload:</label></td>
+                <td><input type="file" name="file" id="upload"></td>
+                <td><input type="button" value="Upload"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td><input type="submit" value="Submit Form"></td>
+            </tr>
+        </table>
+    </fieldset>  
+    </form>
+</div>
 </body>
-
 </html>
